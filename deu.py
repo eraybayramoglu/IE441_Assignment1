@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pyomo.environ as pyo
 
-np.random.seed(42)
+np.random.seed(441)
 num_banks = 25
 banks = [f"Bank_{i+1:02d}" for i in range(num_banks)]
 
